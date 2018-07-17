@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CV - Moisés</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="clickExperiencia();" class="w3-light-grey">
+
+  <!-- Page Container -->
+  <div class="container w3-content w3-margin-top">
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+
+      <!-- Left Column -->
+      <div class="w3-third">
+
+        <div class="backgroundColor w3-text-white w3-card-4" id="leftCol">
+          <div class="w3-display-container">
+            <img class="avatar" src="/img/user.png" alt="Avatar">
+            <div class="w3-display-bottomleft w3-container">
+              <h2>Moisés Silva</h2>
+            </div>
+          </div>
+          <div class="w3-container">
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Analista de Suporte / Desenvolvedor</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>São Paulo/SP - BR</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>moises.silva@mail.com</p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>011965426971</p>
+            <p>
+              <a href="https://github.com/moisescs/" target="_blank"><i class="fa fa-github-square fa-fw w3-large w3-text-teal"></i>Github</a> |
+              <a href="https://www.facebook.com/moisescs1234" target="_blank"><i class="fa fa-facebook-square fa-fw  w3-large w3-text-teal"></i> Facebook</a> |
+              <a href="https://www.linkedin.com/in/moises-silva-ads/" target="_blank"><i class="fa fa-linkedin fa-fw  w3-large w3-text-teal"></i> Linkedin</a>
+            </p>
+
+            <hr/>
+            <!--
+            <div class="w3-block">
+              <a href="javascript:void(0)" onclick="openTab(event, 'Experiencia1');">
+                <p class="tablink w3-bottombar w3-hover-light-grey w3-padding w3-large"><b><i class="fa fa-suitcase fa-fw w3-margin-right w3-text-teal"></i>Experiencias Profissionais</b></p>
+              </a>
+              <a href="javascript:void(0)" onclick="openTab(event, 'Formacao1');">
+                <p class="tablink w3-bottombar w3-hover-light-grey w3-padding w3-large"><b><i class="fa fa-mortar-board fa-fw w3-margin-right w3-text-teal"></i>Formação Acadêmica</b></p>
+              </a>
+              <a href="javascript:void(0)" onclick="openTab(event, 'FormacaoComplementar1');">
+                <p class="tablink w3-bottombar w3-hover-light-grey w3-padding w3-large"><b><i class="fa fa-certificate fa-fw w3-margin-right w3-text-teal"></i>Formações Complementares</b></p>
+              </a>
+            </div>
+
+            <hr/>
+            -->
+
+            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Conhecimentos</b></p>
+            <p>Manutenção de Computadores</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">
+                <div class="w3-center w3-text-white">90%</div>
+              </div>
+            </div>
+            <p>Desenvolvimento de Software</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+            </div>
+            <p>Sistemas Operacionais</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+            </div>
+            <p>MySql e SQL Server</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:40%">40%</div>
+            </div>
+            <p>Redes</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:30%">30%</div>
+            </div>
+
+            <br/>
+
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Idiomas</b></p>
+            <p>Português</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:99%">99%</div>
+            </div>
+            <br>
+            <p>Inglês</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:25%">25%</div>
+            </div>
+            <br>
+          </div>
+        </div>
+        
+        <!-- End Left Column -->
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div class="backgroundColor w3-container w3-card w3-text-white" id="rightCol">
+
+          <div class="w3-row w3-block">
+            <a href="javascript:void(0)" onclick="openTabFunction(event, 'Experiencia'), heightColsFunction('leftCol', 'rightCol');" id="tabExperiencia">
+              <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-large w3-center">Experiencias Profissionais</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openTabFunction(event, 'Formacao'), heightColsFunction('leftCol', 'rightCol');">
+              <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-large w3-center">Formação Acadêmica</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openTabFunction(event, 'FormacaoComplementar'), heightColsFunction('leftCol', 'rightCol');">
+              <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-large w3-center">  Formação Complementar  </div>
+            </a>
+          </div>
+
+          <div id="Experiencia" class="tab">
+            
+            <h2 class="w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiencias Profissionais</h2>
+            <div class="w3-container">
+              <h5><b>Analista de Suporte Técnico Jr. na Proxxi Tecnologia (IBM - Brasil) / scpsservicos.com.br</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - <span class="w3-tag w3-teal w3-round">Atualmente</span></h6>
+              <p>Especialista em máquinas Lenovo da linha empresarial “Think” (Thinkpad, Thinkcentre e Thinkstation), responsável por fazer o  atendimento ténico de nivel 1 via telefone ou acesso remoto.</p>
+               <h6>Atividades desenvolvidas:</h6>
+              <ul>
+                <li>Regsitro de Incidente / Chamados;</li>
+                <li>Orientar o cliente final na realização de testes a fim de  diagnosticar o problema e quando não for possível solucionar com orientações via telefone ou acesso remoto, direcionar para o time responsável de acordo com o definido no processo/procedimento;</li>
+              </ul>
+              <hr>
+            </div>
+
+            <div class="w3-container  w3-justify">
+              <h5><b>Auxiliar de Suporte Técnico na MaqCit Soluções / maqcitsolucoes.com.br</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>jun de 2015 - dez de 2016</h6>
+              <p>
+                Técnico Residente em um dos clientes da empresa. 
+                <br/>
+                Onde auxilio na administração de contas e-mails e suporte aos seus colaboradores e clientes.
+                <br/>
+              </p>
+              <h6>Atividades desenvolvidas:</h6>
+              <ul>
+                <li>Atendimento ao cliente via chat, e-mail, telefone e presencial durante visitas técnicas;</li>
+                <li>Administração de contas e-mail (Criação de contas e abertura de chamados em casos de problemas);</li>
+                <li>Administração de um portal de jogos e uma plataforma de conteúdos para professores e alunos do próprio cliente;</li>
+                <li>Suporte técnico aos funcionários internos e externos e aos clientes do cliente;</li>
+                <li>Configuração, atualização e manutenção de equipamentos como Tablets Samsung, Mini Computadores Intel NUC, Gabinetes de recarga para equipamentos; </li>
+                <li>Controle de equipamentos (Entrada e saída de equipamentos para manutenção). </li>
+              </ul>
+              <hr>
+            </div>
+
+            <div class="w3-container  w3-justify">
+              <h5><b>Estagiário de Suporte Técnico na MaqCit Soluções / maqcitsolucoes.com.br</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>set de 2014 - jul de 2015</h6>
+              <p>
+                Montagem e manutenção de microcomputadores, suporte ao usuário final com atendimentos de 1º nível, 
+                sendo eles remoto ou presencial como objetivo de realizar a manutenção preventiva e corretiva em equipamentos 
+                de informática (Desktops, Notebooks, Impressoras).
+                <br/>
+              </p>
+              <h6>Atividades desenvolvidas:</h6>
+              <ul>
+                <li>Formatação, Backups (cópias de segurança), recuperação de dados e substituição de peças;</li>
+                <li>Instalação, configuração e compartilhamento de impressoras locais e impressoras de redes;</li>
+                <li>Instalação e remoção de Softwares, configuração roteadores e monitoramentos de link de internet e abertura de incidentes;</li>
+                <li>Atendimento ao cliente (Telefônico e Presencial): Visitas técnicas , migração e substituição de desktop e notebooks.</li>
+              </ul>
+              <hr>
+            </div>
+
+            <div class="w3-container w3-justify">
+              <h5><b>Operador de atendimento II no Grupo Contax (Atual LIQ Paticipações) / liq.com.br</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2014 - Out 2014</h6>
+              <p>Atendimento ao Cliente.</p>
+              <hr>
+            </div>
+            <div class="w3-container w3-justify">
+              <h5><b>Estagiário de Administração na Companhia de Engenharia de Tráfego de SP / cetsp.com.br</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Abr 2013 - Dez 2013</h6>
+              <p>Atendimento ao Cliente, Controle de documentos, arquivos e Remessa, Elaboração de Despachos.</p><br>
+            </div>
+            
+            <!-- End Tab Eaperiencia -->
+          </div>
+
+          <div id="Formacao" class="tab">
+            
+            <h2 class="w3-padding-16"><i class="fa fa-mortar-board fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Formação Acadêmica</h2>
+
+            <div class="w3-container">
+              <h5><b>Faculdade Impacta de Tecnologia</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2018</h6>
+              <p>Tecnólogo em Análise e Desenvolvimento</p>
+              <hr>
+            </div>
+
+            <div class="w3-container">
+              <h5><b>Etec Paulistano - Centro Paula Souza / etecpaulistano.com.br</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2015</h6>
+              <p>Técnico em Informática</p>
+              <hr>
+            </div>
+
+            <div class="w3-container">
+              <h5><b>Etec Paulistano - Centro Paula Souza / etecpaulistano.com.br</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2012 - 2013</h6>
+              <p>Técnico em Administração</p>
+              <hr>
+            </div>
+
+            <div class="w3-container">
+              <h5><b>Unidade Escola Francisco Tomaz</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008 - 2010</h6>
+              <p>Ensino Médio - Escola Pública de São João do Arraial - PI</p><br>
+            </div>
+
+          </div>
+
+          <div id="FormacaoComplementar" class="tab">
+            
+            <h2 class="w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Habiliades e Competências / Formações Complementares</h2>
+            <div class="w3-container w3-justify">
+              <h4><b>Programação de Computadores</b></h4>
+              <div>
+                <button onclick="collapseFunction('Exp1')" class="w3-btn w3-block w3-left-align">
+                  <h6><b>Curso Completo de PHP 7 <i class="fa fa-angle-double-down fa-fw"> </i></b></h6>
+                </button>
+                <div id="Exp1" class="w3-container w3-hide collapse">
+                  <i class="fa fa-university fa-fw w3-margin-right w3-text-teal"></i>Udemy (HCode) - https://www.udemy.com<br/>
+                  <i class="fa fa-info-circle fa-fw w3-margin-right w3-text-teal"></i>Curso Online<br/>
+                  <i class="fa fa-clock-o fa-fw w3-margin-right w3-text-teal"></i>33hrs.<br/>
+                  <i class="fa fa-calendar fa-fw w3-margin-right w3-text-teal"></i>Jan 2018 - <span class="w3-tag w3-teal w3-round">Cursando</span>
+                  <hr>
+                </div>
+              </div>
+
+              <div>
+                <button onclick="collapseFunction('Exp2')" class="w3-btn w3-block w3-left-align">
+                  <h6><b>Curso Completo do Desenvolvedor Web &nbsp <i class="fa fa-angle-double-down fa-fw w3-margin-right"> </i></b></h6>
+                </button>
+                <div id="Exp2" class="w3-container w3-hide collapse">
+                  <i class="fa fa-university fa-fw w3-margin-right w3-text-teal"></i>Udemy (HCode) - https://www.udemy.com<br/>
+                  <i class="fa fa-info-circle fa-fw w3-margin-right w3-text-teal"></i>Curso Online<br/>
+                  <i class="fa fa-clock-o fa-fw w3-margin-right w3-text-teal"></i>13,5hrs.<br/>
+                  <i class="fa fa-calendar fa-fw w3-margin-right w3-text-teal"></i>Jul 2018 - <span class="w3-tag w3-teal w3-round">Cursando</span>
+                  <hr>
+                </div>
+              </div>
+
+              <div>
+                <button onclick="collapseFunction('Exp3')" class="w3-btn w3-block w3-left-align">
+                  <h6><b>Dominando Banco de Dados com MySQL &nbsp <i class="fa fa-angle-double-down fa-fw w3-margin-right"> </i></b></h6>
+                </button>
+                <div id="Exp3" class="w3-container w3-hide collapse">
+                  <i class="fa fa-university fa-fw w3-margin-right w3-text-teal"></i>Udemy (HCode) - https://www.udemy.com<br/>
+                  <i class="fa fa-info-circle fa-fw w3-margin-right w3-text-teal"></i>Curso Online<br/>
+                  <i class="fa fa-clock-o fa-fw w3-margin-right w3-text-teal"></i>2hrs.<br/>
+                  <i class="fa fa-calendar fa-fw w3-margin-right w3-text-teal"></i>Jun 2017 - <span class="w3-tag w3-teal w3-round">Cuncluído</span>
+                  <hr>
+                </div>
+              </div>
+
+              <div>
+                <button onclick="collapseFunction('Exp4')" class="w3-btn w3-block w3-left-align">
+                  <h6><b>Git e Github para Iniciantes &nbsp <i class="fa fa-angle-double-down fa-fw w3-margin-right"> </i></b></h6>
+                </button>
+                <div id="Exp4" class="w3-container w3-hide collapse">
+                  <i class="fa fa-university fa-fw w3-margin-right w3-text-teal"></i>Udemy - https://www.udemy.com<br/>
+                  <i class="fa fa-info-circle fa-fw w3-margin-right w3-text-teal"></i>Curso Online<br/>
+                  <i class="fa fa-clock-o fa-fw w3-margin-right w3-text-teal"></i>2hrs.<br/>
+                  <i class="fa fa-calendar fa-fw w3-margin-right w3-text-teal"></i>maio 2017 - <span class="w3-tag w3-teal w3-round">Concluído</span>
+                  <hr>
+                </div>
+              </div>
+
+              <div>
+                <button onclick="collapseFunction('Exp5')" class="w3-btn w3-block w3-left-align">
+                  <h6><b>PHP Módulo II &nbsp <i class="fa fa-angle-double-down fa-fw w3-margin-right"> </i></b></h6>
+                </button>
+                <div id="Exp5" class="w3-container w3-hide collapse">
+                  <i class="fa fa-university fa-fw w3-margin-right w3-text-teal"></i>Impacta Certificação e Treinamento - https://www.impacta.com.br<br/>
+                  <i class="fa fa-info-circle fa-fw w3-margin-right w3-text-teal"></i>Curso Presencial<br/>
+                  <i class="fa fa-clock-o fa-fw w3-margin-right w3-text-teal"></i>40hrs.<br/>
+                  <i class="fa fa-calendar fa-fw w3-margin-right w3-text-teal"></i>mar 2017 - <span class="w3-tag w3-teal w3-round">Concluído</span>
+                </div>
+              </div>
+            </div>
+
+            <hr/>
+
+            <div class="w3-container w3-justify">
+              <h4><b>Idiomas</b></h4>
+              <div>
+                <button onclick="collapseFunction('Exp6')" class="w3-btn w3-block w3-left-align">
+                  <h6><b>Curso de Inglês &nbsp <i class="fa fa-angle-double-down fa-fw w3-margin-right"> </i></b></h6>
+                </button>
+                <div id="Exp6" class="w3-container w3-hide collapse">
+                  <i class="fa fa-university fa-fw w3-margin-right w3-text-teal"></i>Minds English School - https://www.mindsidiomas.com.br<br/>
+                  <i class="fa fa-info-circle fa-fw w3-margin-right w3-text-teal"></i>Curso Presencial<br/>
+                  <i class="fa fa-clock-o fa-fw w3-margin-right w3-text-teal"></i>3 Sem.<br/>
+                  <i class="fa fa-calendar fa-fw w3-margin-right w3-text-teal"></i>fev 2017 - <span class="w3-tag w3-teal w3-round">Incompleto</span>
+                </div>
+              </div>
+            </div>
+
+            <hr/>
+
+            <div class="w3-container w3-justify">
+              <h4><b>Outros Cursos</b></h4>
+              <div>
+                <button onclick="collapseFunction('Exp7')" class="w3-btn w3-block w3-left-align">
+                  <h6><b>Informática Básica e Avançada &nbsp  <i class="fa fa-angle-double-down fa-fw w3-margin-right"> </i></b></h6>
+                </button>
+                <div id="Exp7" class="w3-container w3-hide collapse">
+                  <i class="fa fa-university fa-fw w3-margin-right w3-text-teal"></i>Delta Informática<br/>
+                  <i class="fa fa-info-circle fa-fw w3-margin-right w3-text-teal"></i>Curso Presencial<br/>
+                  <i class="fa fa-clock-o fa-fw w3-margin-right w3-text-teal"></i>180hrs<br/>
+                  <i class="fa fa-calendar fa-fw w3-margin-right w3-text-teal"></i>jun 2009 - <span class="w3-tag w3-teal w3-round">Concluído</span>
+                  <hr>
+                </div>
+              </div>
+
+              <div>
+                <button onclick="collapseFunction('Exp8')" class="w3-btn w3-block w3-left-align">
+                  <h6><b>Formulas Avançadas no Microsoft Excel &nbsp <i class="fa fa-angle-double-down fa-fw w3-margin-right"> </i></b></h6>
+                </button>
+                <div id="Exp8" class="w3-container w3-hide collapse">
+                  <i class="fa fa-university fa-fw w3-margin-right w3-text-teal"></i>ETEC Paulistano - https://www.etecpaulistano.com.br<br/>
+                  <i class="fa fa-info-circle fa-fw w3-margin-right w3-text-teal"></i>Curso Presencial<br/>
+                  <i class="fa fa-clock-o fa-fw w3-margin-right w3-text-teal"></i>40hrs<br/>
+                  <i class="fa fa-calendar fa-fw w3-margin-right w3-text-teal"></i>jun 2009 - <span class="w3-tag w3-teal w3-round">Concluído</span>
+                  <hr>
+                </div>
+              </div>
+
+              <div>
+                <button onclick="collapseFunction('Exp9')" class="w3-btn w3-block w3-left-align">
+                  <h6><b>Falar em Público - Encare esse Desafio &nbsp <i class="fa fa-angle-double-down fa-fw w3-margin-right"> </i></b></h6>
+                </button>
+                <div id="Exp9" class="w3-container w3-hide collapse">
+                  <i class="fa fa-university fa-fw w3-margin-right w3-text-teal"></i>Nube - https://www.nube.com.br<br/>
+                  <i class="fa fa-info-circle fa-fw w3-margin-right w3-text-teal"></i>Curso Online<br/>
+                  <i class="fa fa-clock-o fa-fw w3-margin-right w3-text-teal"></i>05hrs<br/>
+                  <i class="fa fa-calendar fa-fw w3-margin-right w3-text-teal"></i>jun 2009 - <span class="w3-tag w3-teal w3-round">Concluído</span>
+                </div>
+              </div>
+          </div>
+
+        </div>
+
+        </div>
+
+        <button class="w3-padding" onclick="topFunction()" id="topBtn"> <i class="fa fa-angle-double-up"></i> </button>
+        
+      <!-- End Right Column --> 
+      </div>
+      
+    <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
+    </div>
+
+    <footer class="w3-container w3-center w3-margin-top w3-text-white">
+      <p>Find me on social media.</p>
+      <a href="https://github.com/moisescs/" target="_blank"><i class="fa fa-github-square fa-fw w3-large w3-text-teal"></i>Github</a> 
+      <a href="https://www.facebook.com/moisescs1234" target="_blank"><i class="fa fa-facebook-square fa-fw  w3-large w3-text-teal"></i> Facebook</a> 
+      <a href="https://www.linkedin.com/in/moises-silva-ads/" target="_blank"><i class="fa fa-linkedin fa-fw  w3-large w3-text-teal"></i> Linkedin</a>
+      <p>Powered by Moisés Silva</a></p>
+    </footer>
+    
+    <script src="js/scripts.js"></script>
+    
+  </body>
+  </html>
