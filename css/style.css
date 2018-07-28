@@ -32,6 +32,11 @@ a,button{
   font-size:25px !important;
 }
 
+.arredondar {
+  webkit-clip-path: circle(45% at 50% 50%);
+  clip-path: circle(45% at 50% 50%);
+}
+
 #topBtn {
   display: none;
   position: fixed;
